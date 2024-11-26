@@ -1,0 +1,160 @@
+/* Tracking Popup */
+.tracking-step {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .tracking-step .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .tracking-step .line {
+    width: 2px;
+    height: 30px;
+    background: #ddd;
+  }
+  
+  .tracking-step.completed .circle {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .tracking-step.pending .circle {
+    background-color: #ddd;
+    color: #777;
+  }
+
+
+  /* Ensure the container for steps has relative positioning */
+.steps-container {
+  position: relative;
+}
+
+.steps-container .step-item {
+  position: relative;
+}
+
+.steps-container .step-item:not(:last-child) {
+  margin-bottom: 20px; /* Add some spacing between steps */
+}
+
+.steps-container .step-item::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 2px; /* Line thickness */
+  width: 100%;
+  background-color: #ccc; /* Line color */
+  z-index: -1; /* Make sure the line stays behind the steps */
+}
+
+.steps-container .step-item:last-child::after {
+  display: none; /* Hide the line after the last step */
+}
+
+/* Style for the active step's line */
+.steps-container .step-item.isActive::after {
+  background-color: #4caf50; /* Active line color */
+}
+
+  
+
+
+  /* Blinking animation for the current status */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  animation: blink 1.5s infinite;
+}
+
+/* Styling for the status tracking lines */
+.relative {
+  position: relative;
+}
+
+.text-green-600 {
+  color: #38a169;
+}
+
+.text-green-700 {
+  color: #2f855a;
+}
+
+.bg-green-500 {
+  background-color: #48bb78;
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0;
+}
+
+.bg-gray-400 {
+  background-color: #cbd5e0;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.space-y-4 > :not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+/* Adjusting the vertical lines */
+.absolute {
+  position: absolute;
+}
+
+.left-2 {
+  left: 2rem;
+}
+
+.top-1/2 {
+  top: 50%;
+}

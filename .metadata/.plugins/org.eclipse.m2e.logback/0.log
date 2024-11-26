@@ -1,0 +1,97 @@
+2024-11-26 16:37:59,628 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-11-26 16:38:32,151 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-26 16:38:32,928 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.discovery:discovery-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/discovery-service/pom.xml.
+2024-11-26 16:38:33,474 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4.pom
+2024-11-26 16:38:33,483 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4.pom
+2024-11-26 16:38:33,569 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4.jar
+2024-11-26 16:38:33,607 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4.jar
+2024-11-26 16:38:33,895 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/main/java
+2024-11-26 16:38:33,895 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2024-11-26 16:38:33,897 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/main/resources
+2024-11-26 16:38:33,900 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /discovery-service/src/test/java
+2024-11-26 16:38:33,900 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /discovery-service/src/test/resources
+2024-11-26 16:38:34,324 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.apigateway:api-gateway:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/api-gateway/pom.xml.
+2024-11-26 16:38:34,622 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:34,636 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:34,638 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/api-gateway/src/test/resources
+2024-11-26 16:38:34,900 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4-sources.jar
+2024-11-26 16:38:34,913 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.13.4/micrometer-registry-prometheus-1.13.4-sources.jar
+2024-11-26 16:38:34,916 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-registry-prometheus:1.13.4
+2024-11-26 16:38:34,918 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-registry-prometheus:1.13.4
+2024-11-26 16:38:35,503 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 1.00 sec 
+2024-11-26 16:38:35,504 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-26 16:38:36,648 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.user:user-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/user-service/pom.xml.
+2024-11-26 16:38:36,775 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.wishlist:wishlist-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/wishlist-service/pom.xml.
+2024-11-26 16:38:36,816 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.product:product-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/product-service/pom.xml.
+2024-11-26 16:38:36,850 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:notification-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/notification-service/notification-service/pom.xml.
+2024-11-26 16:38:36,895 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.order:order-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/order-service/pom.xml.
+2024-11-26 16:38:36,938 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:auth-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/authentication-service/authentication-service/pom.xml.
+2024-11-26 16:38:36,986 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.cart:cart-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/cart-service/pom.xml.
+2024-11-26 16:38:37,009 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.discovery:discovery-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/discovery-service/pom.xml.
+2024-11-26 16:38:37,048 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.payment:payment-service:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/payment-service/pom.xml.
+2024-11-26 16:38:37,080 [Worker-11: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature.apigateway:api-gateway:0.0.1-SNAPSHOT @ /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/api-gateway/pom.xml.
+2024-11-26 16:38:37,650 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-service/src/main/java
+2024-11-26 16:38:37,650 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-service/src/main/resources
+2024-11-26 16:38:37,652 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-service/src/main/resources
+2024-11-26 16:38:37,654 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /user-service/src/test/java
+2024-11-26 16:38:37,655 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /user-service/src/test/resources
+2024-11-26 16:38:37,931 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:37,938 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:37,941 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/authentication-service/authentication-service/src/test/resources
+2024-11-26 16:38:38,095 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /wishlist-service/src/main/java
+2024-11-26 16:38:38,095 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /wishlist-service/src/main/resources
+2024-11-26 16:38:38,098 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /wishlist-service/src/main/resources
+2024-11-26 16:38:38,101 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /wishlist-service/src/test/java
+2024-11-26 16:38:38,101 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /wishlist-service/src/test/resources
+2024-11-26 16:38:38,452 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/main/java
+2024-11-26 16:38:38,452 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2024-11-26 16:38:38,454 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/main/resources
+2024-11-26 16:38:38,456 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /product-service/src/test/java
+2024-11-26 16:38:38,457 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /product-service/src/test/resources
+2024-11-26 16:38:38,838 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notification-service/src/main/java
+2024-11-26 16:38:38,838 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notification-service/src/main/resources
+2024-11-26 16:38:38,841 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notification-service/src/main/resources
+2024-11-26 16:38:38,844 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notification-service/src/test/java
+2024-11-26 16:38:38,844 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notification-service/src/test/resources
+2024-11-26 16:38:39,164 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/main/java
+2024-11-26 16:38:39,164 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2024-11-26 16:38:39,166 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/main/resources
+2024-11-26 16:38:39,168 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /order-service/src/test/java
+2024-11-26 16:38:39,168 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /order-service/src/test/resources
+2024-11-26 16:38:40,043 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /authentication-service/src/main/java
+2024-11-26 16:38:40,043 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /authentication-service/src/main/resources
+2024-11-26 16:38:40,045 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /authentication-service/src/main/resources
+2024-11-26 16:38:40,047 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /authentication-service/src/test/java
+2024-11-26 16:38:40,048 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /authentication-service/src/test/resources
+2024-11-26 16:38:40,485 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cart-service/src/main/java
+2024-11-26 16:38:40,486 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart-service/src/main/resources
+2024-11-26 16:38:40,487 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart-service/src/main/resources
+2024-11-26 16:38:40,491 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /cart-service/src/test/java
+2024-11-26 16:38:40,491 [Worker-11: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /cart-service/src/test/resources
+2024-11-26 16:38:41,210 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:41,211 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:41,214 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:45,957 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:45,964 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:45,967 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:47,591 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:47,596 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:47,599 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:47,821 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:47,828 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:47,830 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:48,086 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,094 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,096 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:48,193 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,199 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,201 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/tanzeera/Downloads/RevShop_P2_Microservice-main/payment-service/src/test/resources
+2024-11-26 16:38:48,394 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,400 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,403 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:48,630 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,635 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,637 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-11-26 16:38:48,786 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,791 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-11-26 16:38:48,793 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
