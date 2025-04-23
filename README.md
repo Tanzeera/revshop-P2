@@ -35,6 +35,4 @@ JSP (Java Server Pages)
 Contributing
 Contributions are welcome! Feel free to submit a pull request or open an issue to propose new features or report bugs.
 
-Contact
-For any inquiries or support, feel free to contact 
-sushantkapri@gmail.com
+
